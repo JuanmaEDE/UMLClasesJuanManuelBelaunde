@@ -1,4 +1,8 @@
 @startuml
 Event <|--BoardMeeting
 Event <|--Conference
+
+Person  <|--  Member
+Member <|-- BoardMember
+
 @enduml
