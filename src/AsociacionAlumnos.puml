@@ -1,0 +1,4 @@
+@startuml
+Event <|--BoardMeeting
+Event <|--Conference
+@enduml
